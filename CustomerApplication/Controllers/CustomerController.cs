@@ -16,13 +16,6 @@ namespace CustomerApplication.Controllers
         private static List<Customer> customers = new List<Customer>();
         private static int nextId = 1;
 
-        //private readonly ILogger<CustomerController> _logger;
-
-        //public CustomerController(ILogger<CustomerController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
         // GET: api/Customer
         [HttpGet]
         public ActionResult<IEnumerable<Customer>> GetCustomers()
