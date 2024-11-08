@@ -10,7 +10,7 @@
   },
   "profiles": {
     "http": {
-      "commandName": "CustomerApplication",
+      "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -20,7 +20,7 @@
       }
     },
     "https": {
-      "commandName": "CustomerApplication",
+      "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
